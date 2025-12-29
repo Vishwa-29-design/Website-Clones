@@ -1,0 +1,159 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: black;
+  color: white;
+  font-family: 'popins',sans-serif;
+}
+
+.navbar {
+  width: 100%;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.85);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  object-fit: cover;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  padding: 15px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #f15a29;
+}
+
+.logo {
+  height: 40px;
+  font-size: 35px;
+  color: red;
+  font-weight: bold;
+  filter: brightness(100%);
+}
+
+.dropdown a {
+  cursor: pointer;
+}
+
+.img{
+  filter: brightness(70%);
+}
+
+.overlay-text {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.t1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: red;
+}
+
+.t2{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 1300px;
+  font-weight: bold;
+}
+
+.t3{
+  color: white;
+  font-size: 40px;
+}
+
+.t4{
+  color: red;
+  font-size: 40px; 
+}
+
+.tex{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 1200px;
+  padding: 30px;
+  margin: 70px;
+  margin-left: 150px;
+  color: white;
+  background-color: rgb(46, 20, 20);
+  border: 1px solid white;
+  border-radius: 20px;
+}
+
+.textt{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.texttt{
+  font-size: 25px;
+}
+
+.accc{
+  font-size: 40px;
+  font-weight: bolder;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.imgg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 1200px;
+}
+
+.img1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1300;
+}
+
+.img2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1300;
+}
+
+.img3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1300;
+}
