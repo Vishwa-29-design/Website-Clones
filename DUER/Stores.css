@@ -1,0 +1,259 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: white;
+  color: black;
+  font-family: 'popins',sans-serif;
+}
+
+.navbar {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  object-fit: cover;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  padding: 15px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.overlay-text {
+  position: absolute;
+  bottom: 300px;
+  gap: 20px;
+  left: 20%;
+  transform: translateX(-50%);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.text{
+  font-size: 60px;
+  font-weight: bolder;
+  color: black;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 30px;
+  margin: 30px;
+}
+
+.img1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  margin: 15px;
+  gap: 15px;
+}
+
+.card01{
+  border: 1px solid black;
+  width: 370px;
+}
+
+.txt1{
+  font-size: 25px;
+  font-weight: normal;
+}
+
+.txt2{
+  font-size: 15px;
+  color: black;
+}
+
+.img2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  margin: 30px;
+  gap: 30px;
+}
+
+.card1{
+  border: 1px solid black;
+  border-radius: 15px;
+  height: 700px;
+  gap: 10px;
+  padding: 10px;
+}
+
+.img3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  margin: 30px;
+  gap: 30px;
+}
+
+.card{
+  border: 1px solid black;
+  border-radius: 15px;
+  height: 550px;
+  gap: 10px;
+  padding: 10px;
+}
+
+.text1{
+  font-size: 30px;
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  margin: 20px;
+}
+
+.txt3{
+  font-size: 40px;
+}
+
+.txt4{
+  font-size: 20px;
+}
+
+.card1{
+  border: 1px solid black;
+  width: 500px;
+  padding: 10px;
+  margin: 10px;
+  gap: 10px;
+  border-radius: 20px;
+}
+
+.img4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  margin: 30px;
+  gap: 30px;
+}
+
+.footer{
+      background-color: #F7F3EF;
+      padding-bottom: 20px;
+      margin-top: 50px;
+}
+
+.col{
+      padding: 20px;
+      margin-top: 40px;
+      background-color: #374151;
+      color: white;
+      font-size: 20px;
+      display: flex;
+      justify-content: space-around;
+}
+
+.col1{
+      padding: 30px;
+}
+
+.col1t1{
+      font-size: 20px;
+      font-weight: bold;
+}
+
+.col1t2{
+      font-size: 15px;
+      font-weight: lighter;
+      margin-top: 30px;
+}
+
+#colem{
+      margin-top: 20px;
+      padding: 8px;
+}
+
+.su{
+      display: flex;
+      flex-direction: row;
+      gap: 15px;
+}
+
+button#b14{
+      margin-top: 20px;
+      color: white;
+      background-color: black;
+      padding: 8px;
+      font-size: 20px;
+      height: 40px;
+      width: 200px;
+}
+
+.col2{
+      margin-top: -210px;
+      margin-left: 600px;
+}
+
+.col2heading{
+      font-size: 20px;
+      font-weight: bold;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      color: grey;
+}
+
+.col2txt{
+      margin-top: 10px;
+      font-size: 15px;
+      color: grey;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.col3{
+      margin-top: -140px;
+      margin-left: 1100px;
+}
+
+.col3heading{
+      font-size: 20px;
+      font-weight: bold;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      color: grey;
+}
+
+.col3txt{
+      margin-top: 10px;
+      font-size: 15px;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      color: grey;
+}
+
+.col4{
+      margin-top: -140px;
+      margin-left: 1500px;
+}
+
+.col4heading{
+      font-size: 20px;
+      font-weight: bold;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      color: grey;
+}
+
+.col4txt{
+      margin-top: 10px;
+      font-size: 15px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      color: grey
+}
