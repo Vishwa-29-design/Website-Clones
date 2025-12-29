@@ -1,0 +1,163 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+nav{
+    background-color: white;
+    display: flex;
+    position: absolute;
+    color: black;
+    width: 100%;
+}
+
+nav #i1{
+    margin-left: 10px;
+    color: #7646D1;
+}
+
+.nav-c{
+    margin-left: 300px;
+    margin-top: 30px;
+    font-size: 20px;
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+nav #i2{
+    margin-left: 375px;
+}
+
+#img{
+    margin-top: 70px;
+    height: 600px;
+    width: 100%;
+}
+
+.over-text{
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    font-weight: 1000;
+    font-family: sans-serif;
+    bottom: 300px;
+    left: 380px;
+}
+
+.over-text #city{
+    margin-left: 80px;
+    padding: 8px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+}
+
+.over-text #area{
+    padding: 8px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+}
+
+.flex1{
+    display: flex;
+    gap: 20px;
+    row-gap: initial;
+}
+
+.card{
+    box-shadow: lightgrey 5px 5px;
+    width: 400px;
+    height: fit-content;
+    border-radius: 10px;
+    background-color: #d3d3d32b;
+    margin: 20px;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.cardt1{
+    color: rgb(50 30 90 / 1.0);
+    font-size: 20px;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+
+.cardt2{
+    font-family: sans-serif;
+    font-size: 15px;
+    margin: 15px;
+}
+
+button#bt1{
+    background-color: #7646D1;
+    color: white;
+    height: 50px;
+    padding: 15px;
+    margin-top: 10px;
+    margin-left: -10px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.flex2{
+    display: flex;
+}
+
+footer{
+    margin-top: 100px;
+}
+
+.fcolor{
+    background-color: #7646D1;
+    display: flex;
+    margin-top: -50px;
+}
+
+.column1{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: white;
+    margin: 20px;
+    margin-top: -50px;
+    font-family: sans-serif;
+}
+
+.column2{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: white;
+    margin: 20px;
+    margin-left: 700px;
+    margin-top: 50px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+#fi1{
+    margin-top: 50px;
+    height: 120px;
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+#fi2{
+    margin-top: 50px;
+    margin-left: 80px;
+    height: 100px;
+    width: 100px;
+}
